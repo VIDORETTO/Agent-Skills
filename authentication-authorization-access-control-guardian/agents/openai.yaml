@@ -1,0 +1,4 @@
+interface:
+  display_name: "Authentication, Authorization & Access Control Guardian"
+  short_description: "Review auth, permissions, tenancy, and data exposure"
+  default_prompt: "Use $authentication-authorization-access-control-guardian to review this system for login, sessions, permissions, multitenancy boundaries, route protection, and data exposure risks."

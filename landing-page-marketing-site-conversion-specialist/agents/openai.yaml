@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Page & Marketing Site Conversion Specialist"
+  short_description: "Improve headlines, value prop, CTA, and marketing conversion"
+  default_prompt: "Use $landing-page-marketing-site-conversion-specialist to review this landing page or marketing site for headline clarity, value proposition, CTA strength, proof, pricing communication, and conversion flow."

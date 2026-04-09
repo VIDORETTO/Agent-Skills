@@ -1,0 +1,4 @@
+interface:
+  display_name: "Observability, Logging & Monitoring Guardian"
+  short_description: "Improve logs, metrics, alerts, and operational visibility"
+  default_prompt: "Use $observability-logging-monitoring-guardian to review this system for useful logs, error tracking, metrics, alerts, health checks, and operational monitoring."

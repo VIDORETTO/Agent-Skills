@@ -1,0 +1,4 @@
+interface:
+  display_name: "Billing, Subscription & Plan Enforcement Guardian"
+  short_description: "Review billing flows, plans, limits, and enforcement"
+  default_prompt: "Use $billing-subscription-plan-enforcement-guardian to review this system for subscriptions, plan limits, trials, upgrades, downgrades, cancellations, and billing-rule enforcement."

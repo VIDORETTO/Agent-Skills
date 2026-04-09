@@ -1,0 +1,4 @@
+interface:
+  display_name: "SaaS Readiness & User-Centric Transformation Guardian"
+  short_description: "Transform technical systems into user-ready SaaS products"
+  default_prompt: "Use $saas-readiness-user-centric-transformation-guardian to audit this system as a SaaS product, identify user-facing friction, remove technical leakage, and produce a prioritized transformation backlog."

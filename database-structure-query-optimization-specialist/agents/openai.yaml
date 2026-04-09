@@ -1,0 +1,4 @@
+interface:
+  display_name: "Database Structure & Query Optimization Specialist"
+  short_description: "Improve schema design, indexes, and query performance"
+  default_prompt: "Use $database-structure-query-optimization-specialist to review this database design for schema quality, indexes, heavy queries, data integrity, and future bottlenecks."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Admin Panel & Internal Operations Architect"
+  short_description: "Design internal admin tools without polluting the product"
+  default_prompt: "Use $admin-panel-internal-operations-architect to review this system for internal admin panels, support tools, operational controls, auditing, and safe backoffice workflows."

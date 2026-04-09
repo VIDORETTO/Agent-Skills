@@ -1,0 +1,4 @@
+interface:
+  display_name: "Performance Optimization Specialist"
+  short_description: "Improve frontend, backend, and runtime performance"
+  default_prompt: "Use $performance-optimization-specialist to review this system for frontend and backend slowness, bundle cost, wasteful rendering, caching gaps, heavy queries, and operational bottlenecks."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Conversion & Upgrade Flow Specialist"
+  short_description: "Improve upgrade messaging, plan value, and conversion flow"
+  default_prompt: "Use $conversion-upgrade-flow-specialist to review this product for upgrade flow clarity, plan value communication, conversion friction, and non-aggressive monetization UX."

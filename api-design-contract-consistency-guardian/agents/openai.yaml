@@ -1,0 +1,4 @@
+interface:
+  display_name: "API Design & Contract Consistency Guardian"
+  short_description: "Standardize API design, payloads, and responses"
+  default_prompt: "Use $api-design-contract-consistency-guardian to review this system for endpoint design, payload consistency, status codes, error contracts, versioning, and frontend-backend alignment."

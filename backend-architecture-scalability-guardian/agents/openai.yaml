@@ -1,0 +1,4 @@
+interface:
+  display_name: "Backend Architecture & Scalability Guardian"
+  short_description: "Review backend architecture, scale, and concurrency"
+  default_prompt: "Use $backend-architecture-scalability-guardian to review this backend for modularity, boundaries, queues, caching, concurrency, performance, and growth readiness."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code Hygiene & Maintainability Guardian"
+  short_description: "Audit code hygiene, maintainability, and safe refactors"
+  default_prompt: "Use $code-hygiene-maintainability-guardian to audit this codebase for hygiene, maintainability, structural debt, safe refactors, and a prioritized cleanup backlog."

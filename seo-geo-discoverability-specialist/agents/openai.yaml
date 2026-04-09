@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO, GEO & Discoverability Specialist"
+  short_description: "Improve public-page discoverability in search and AI"
+  default_prompt: "Use $seo-geo-discoverability-specialist to review this public site for SEO, semantic discoverability, AI-search visibility, structured content, and indexable page quality."

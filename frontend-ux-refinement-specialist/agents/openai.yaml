@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frontend UX/UI Refinement Specialist"
+  short_description: "Refine product UX, clarity, and interface flow"
+  default_prompt: "Use $frontend-ux-refinement-specialist to audit and improve this product interface for clarity, hierarchy, navigation, states, and microcopy."

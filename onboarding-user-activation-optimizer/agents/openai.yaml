@@ -1,0 +1,4 @@
+interface:
+  display_name: "Onboarding & User Activation Optimizer"
+  short_description: "Improve onboarding, activation, and first-value flow"
+  default_prompt: "Use $onboarding-user-activation-optimizer to review this product for onboarding friction, activation gaps, first-value speed, setup guidance, and early user progress."

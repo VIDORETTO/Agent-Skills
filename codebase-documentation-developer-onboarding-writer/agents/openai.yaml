@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codebase Documentation & Developer Onboarding Writer"
+  short_description: "Write useful technical docs and developer onboarding guides"
+  default_prompt: "Use $codebase-documentation-developer-onboarding-writer to document this codebase for developers, including architecture, flows, conventions, local setup, and onboarding guidance."
