@@ -1,8 +1,5 @@
 # Referencia: Pipeline RAG por Tipo de Arquivo
 
-> Baseado em: `https://github.com/VIDORETTO/Agent-Skills/blob/main/rag-best-practices/SKILL.md`
-> Data de referencia: 08/04/2026
-
 ---
 
 ## Matriz de Decisao Rapida
