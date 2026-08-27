@@ -90,6 +90,12 @@ When you reference or inject a `SKILL.md` into Claude's system prompt or convers
 | [`codebase-documentation-developer-onboarding-writer`](./codebase-documentation-developer-onboarding-writer/) | Writes comprehensive developer docs — architecture overviews, ADRs, API references, and onboarding guides |
 | [`performance-optimization-specialist`](./performance-optimization-specialist/) | Profiles and optimizes application performance — Core Web Vitals, bundle size, server response times, and memory leaks |
 
+### 🔍 Research & Discovery
+
+| Skill | Description |
+|---|---|
+| [`best-option-research-specialist`](./best-option-research-specialist/) | Generalist "best X for Y" research — triangulates forums, social, expert reviews and official docs to rank Top 3-5 with trade-offs and a clear winner |
+
 ### 🤖 AI & RAG
 
 | Skill | Description |
