@@ -94,6 +94,7 @@ When you reference or inject a `SKILL.md` into Claude's system prompt or convers
 
 | Skill | Description |
 |---|---|
+| [`motokao-viral-content-specialist`](./motokao-viral-content-specialist/) | Posts virais para oficina/loja 100-300cc — Reels, carrossel e stories com 4 pilares e roteiro pronto para Motocão Araras |
 | [`best-option-research-specialist`](./best-option-research-specialist/) | Generalist "best X for Y" research — triangulates forums, social, expert reviews and official docs to rank Top 3-5 with trade-offs and a clear winner |
 
 ### 🤖 AI & RAG
