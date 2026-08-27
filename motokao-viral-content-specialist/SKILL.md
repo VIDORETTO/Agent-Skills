@@ -1,6 +1,6 @@
 ---
 name: motokao-viral-content
-description: Cria posts virais para Motocão Motocenter Araras 100-300cc.
+description: Cria posts virais para Motokão Motocenter Araras 100-300cc.
 version: 2.0
 author: Gabriel + Hermes
 license: private
@@ -10,12 +10,12 @@ metadata:
 ---
 
 ## When to Use
-Use quando Gabriel pedir post/ Reels/ carrossel/ story para Motocão Motocenter, ou quando o cron diário/semanal de curadoria moto rodar. Trigger: "motocão", "motokao", "post moto", "reels oficina", "carrossel moto", "conteúdo Araras", "radar moto".
+Use quando Gabriel pedir post/ Reels/ carrossel/ story para Motokão Motocenter, ou quando o cron diário/semanal de curadoria moto rodar. Trigger: "motocão", "motokao", "post moto", "reels oficina", "carrossel moto", "conteúdo Araras", "radar moto".
 
-# Motocão Viral Content — Skill v2.0
+# Motokão Viral Content — Skill v2.0
 
-## Quem é o Motocão
-**Motocão Moto Center — Desde 1990, Araras-SP**
+## Quem é o Motokão
+**Motokão Moto Center — Desde 1990, Araras-SP**
 - Rua Visconde do Rio Branco, 144 — Centro, 13600-080
 - Admin: Vanderlei Eduardo Vidoretto
 - Nicho: **100-300cc** — carburadas e injetadas, motos comuns nacionais (CG 125/150/160 Titan/Fan/Start, YBR 125/150 Factor, Biz 110/125, Pop 110, Bros 160, XRE 190/300, CB 300F Twister, Fazer 150/250, etc.)
@@ -51,7 +51,7 @@ Regra: **mínimo 60% nos pilares 1 e 2** — convertem para oficina e balcão.
 2. **Valor em 15s** — entregue 1 coisa útil imediatamente. Sem enrolar.
 3. **Prova / Bastidor Real** — mostre peça na mão, moto na oficina, zoom corrente/cabo/pastilha. Estoque real > banco de imagem.
 4. **CTA único** — só 1 por post: "Salva pra mostrar pro mecânico" / "Manda pro amigo da CG" / "Comenta CG ou FACTOR" / "Chama no Whats (19) 3541-3695"
-5. **Local + Autoridade** — feche com "Motocão — desde 1990 em Araras, Rua Visconde do Rio Branco 144" + "4.000 peças a pronta entrega".
+5. **Local + Autoridade** — feche com "Motokão — desde 1990 em Araras, Rua Visconde do Rio Branco 144" + "4.000 peças a pronta entrega".
 
 ## Filtro Comércio — A REGRA DE OURO (novo v2.0)
 Toda notícia/dica/trend, antes de virar post, deve responder: **"Como isso vira peça, serviço ou acessório no balcão AMANHÃ?"**
@@ -76,7 +76,7 @@ Se não virar venda, desprioritize. Para isso, use a matriz abaixo — expanda s
 **Tier 1 — Rua (viral local):** Instagram @motokao.virtual + concorrentes Araras/Limeira/Rio Claro, hashtags #cg160 #titan160 #bros160 #mecanicaDeMotos, TikTok "oficina de moto", WhatsApp/balcão "o que mais perguntaram essa semana?"
 **Tier 2 — Mercado + Clima + Cidade:** Webmotors Moto, Moto.com.br, G1 Auto, UOL Motos, Fenabrave ranking, **Climatempo/CPTEC previsão Araras-SP** (frente fria/calor/chuva), G1 Araras, prefeitura, calendário feriados/festas, preço combustível ANP
 **Tier 3 — Busca/utilidade:** Google Trends "CG 160 falhando", "corrente barulho", YouTube 100k+ views 100-300cc últimos 30d
-**Tier 4 — Verificação Motocão:** peça/serviço está no estoque hoje? Qual preço real? Sem inventar. Confirmar com balcão antes de prometer.
+**Tier 4 — Verificação Motokão:** peça/serviço está no estoque hoje? Qual preço real? Sem inventar. Confirmar com balcão antes de prometer.
 
 ## Workflow de Entrega
 1. Varrer 3-6 fontes (Tier 1-3) e listar 5-8 candidatos.
@@ -111,12 +111,12 @@ Frame 1: Enquete | Frame 2: Bastidor foto/vídeo curto | Frame 3: CTA link Whats
 
 ## Prompts de Imagem (quando não usar foto real)
 Sempre preferir **foto real da oficina/estoque**. Se gerar:
-**Estilo padrão Motocão:** `foto realista, oficina de moto interior SP, iluminação quente, moto 160cc em cavalete, ferramentas ao fundo desfocadas, sem texto na imagem, alta nitidez, cor vibrante, estilo documental`
+**Estilo padrão Motokão:** `foto realista, oficina de moto interior SP, iluminação quente, moto 160cc em cavalete, ferramentas ao fundo desfocadas, sem texto na imagem, alta nitidez, cor vibrante, estilo documental`
 Gerar via `image_generate` com aspect_ratio portrait para carrossel/Reels cover e landscape para thumb.
 
 ## Entrega Markdown Padrão
 ```markdown
-# Motocão — Radar [Semana/Dia] — [Data BRT]
+# Motokão — Radar [Semana/Dia] — [Data BRT]
 ## 🏆 Post do Dia (Vencedor) — [Formato] [Pilar] — [Ângulo Comércio]
 Hooks A/B/C | Para cada card: texto + foto manual + prompt IA | OU roteiro vídeo completo | Legenda pronta | Hashtags | CTA
 ## 📋 Reservas (2) com ângulo comércio

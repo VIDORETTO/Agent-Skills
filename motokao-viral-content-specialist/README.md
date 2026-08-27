@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏍️ Motocão Viral Content Specialist
+# 🏍️ Motokão Viral Content Specialist
 
 **Posts virais para oficina e loja de motos 100-300cc — Reels, carrossel e stories que geram salvamento e WhatsApp.**
 
@@ -14,7 +14,7 @@
 
 ## 📖 What is this?
 
-**Motocão Viral Content Specialist** é a skill do **Motocão Moto Center (Araras-SP, desde 1990)** — referência em peças paralelas premium, originais sob encomenda e oficina especializada para motos **100-300cc** (carburadas e injetadas).
+**Motokão Viral Content Specialist** é a skill do **Motokão Moto Center (Araras-SP, desde 1990)** — referência em peças paralelas premium, originais sob encomenda e oficina especializada para motos **100-300cc** (carburadas e injetadas).
 
 Transforma qualquer dia em **1 post com alta chance de viralizar** no Instagram/TikTok/YouTube Shorts, gerando salvamento, compartilhamento no WhatsApp e visita na loja.
 
@@ -24,13 +24,13 @@ Copiado da lógica do cron de IA: **curadoria diária → ranking por viral scor
 
 ## ⚡ When to Use
 
-- "post para o Motocão", "Reels oficina", "carrossel moto", "conteúdo Araras"
-- Cron diário 08h BRT (Radar Motocão)
+- "post para o Motokão", "Reels oficina", "carrossel moto", "conteúdo Araras"
+- Cron diário 08h BRT (Radar Motokão)
 - Qualquer pedido de conteúdo para motos 100-300cc, peças, oficina, acessórios
 
 ---
 
-## 🏛️ Quem é o Motocão
+## 🏛️ Quem é o Motokão
 
 - **Endereço:** Rua Visconde do Rio Branco, 144 — Centro, Araras-SP 13600-080
 - **Dono:** Vanderlei Eduardo Vidoretto
