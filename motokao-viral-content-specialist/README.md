@@ -66,6 +66,9 @@ Tier 1: Insta/TikTok rua + WhatsApp balcão | Tier 2: Webmotors/Moto.com.br/G1/F
 
 ---
 
+## 🧲 Filtro Comércio — Toda notícia vira venda
+Toda trend passa pela matriz: frente fria → jaqueta/bateria, calor → pneu/óleo, chuva → capa/pastilha, gasolina alta → vela/filtro, feriado → revisão viagem. Se não vira peça/serviço no balcão, desprioritize.
+
 ## 📦 Entrega Padrão
 
 Carrossel ou Reels com 3 hooks A/B/C, roteiro cena-a-cena, legenda pronta + hashtags, CTA + endereço, prompt imagem (preferir foto real).
