@@ -10,7 +10,7 @@ metadata:
 ---
 
 ## When to Use
-Use quando Gabriel pedir post/ Reels/ carrossel/ story para Motokão Motocenter, ou quando o cron diário/semanal de curadoria moto rodar. Trigger: "motocão", "motokao", "post moto", "reels oficina", "carrossel moto", "conteúdo Araras", "radar moto".
+Use quando Gabriel pedir post/ Reels/ carrossel/ story para Motokão Motocenter, ou quando o cron diário/semanal de curadoria moto rodar. Trigger: "motokão", "motokao", "post moto", "reels oficina", "carrossel moto", "conteúdo Araras", "radar moto".
 
 # Motokão Viral Content — Skill v2.0
 
@@ -110,9 +110,24 @@ Incluir no final: **Duração total, música sugerida (sem copyright ou trending
 Frame 1: Enquete | Frame 2: Bastidor foto/vídeo curto | Frame 3: CTA link WhatsApp com "Arraste" ou "Manda IPVA"
 
 ## Prompts de Imagem (quando não usar foto real)
-Sempre preferir **foto real da oficina/estoque**. Se gerar:
-**Estilo padrão Motokão:** `foto realista, oficina de moto interior SP, iluminação quente, moto 160cc em cavalete, ferramentas ao fundo desfocadas, sem texto na imagem, alta nitidez, cor vibrante, estilo documental`
+Sempre preferir **foto real da oficina/estoque**. Se gerar, OBRIGATÓRIO usar HARNESS com reasoning (como no web app com OpenAI Agent SDK):
+
+**Harness obrigatório antes de gerar:**
+1. Ler `references/design-system.json` + `tokens.css` + `motoko-character-sheet.txt` para lockar identidade Motoko canônica (3D CGI chibi, cabeça 1.4x, faixa #E30613 badge M branco, máscara preta fosca, olhos castanho brilhantes, traje charcoal #24262C faixa diagonal vermelha + sash + 2 caudas, luvas sem dedos)
+2. Expandir prompt em: subject lockado + visual specifics + action + camera + lighting + environment + style + negative, injetando tokens exatos e regras duotone/grain/diagonal/safe 7%
+3. Gerar com `reference_image_urls=["/opt/data/skills/motokao-viral-content/references/motoko-character-sheet.png"]` em TODAS as gerações para consistência facial/traje
+4. Validar: mesma face/faixa/máscara/proporção? Paleta correta? Se falhar, re-gerar mantendo reference.
+
+**Geração COM TEXTO (padrão atual — usuário solicitou):**
+- Gerar imagens **já com textos do card** embutidos, prontas para postar sem Canva
+- Tipografia no prompt: `texto em português "SUA 160cc NÃO PAGA IPVA EM 2026" em fonte condensada bold caixa alta, branco #F7F7F5 com sombra 8px 8px 0 rgba(8,11,16,.75), tracking apertado, sobre faixa diagonal vermelha #E30613, legível, sem erro ortográfico`
+- Sempre especificar no prompt: `texto grande legível, sem erro ortográfico, português correto, com acentos`
+- Manter 7% safe area, validar contraste branco/vermelho sobre foto, usar `Arial Narrow / Roboto Condensed` como referência
+- Se texto ficar ilegível na geração, re-gerar com `texto maior, menos palavras por card, fundo com scrim escuro para legibilidade`
+
+**Estilo padrão Motokão (usar após harness):** `foto realista, oficina de moto interior SP, iluminação quente, moto 160cc em cavalete, ferramentas ao fundo desfocadas, alta nitidez, cor vibrante, estilo documental`
 Gerar via `image_generate` com aspect_ratio portrait para carrossel/Reels cover e landscape para thumb.
+**Obs handoff:** o design system original recomenda texto no layout (Canva), mas por solicitação do usuário o padrão atual é texto já na imagem — manter legibilidade como prioridade.
 
 ## Entrega Markdown Padrão
 ```markdown
@@ -125,7 +140,44 @@ Hooks A/B/C | Para cada card: texto + foto manual + prompt IA | OU roteiro víde
 ```
 
 ## Hashtags Fixas (5-8 por post)
-`#MotocaoAraras #ArarasSP #CG160 #MecanicaDeMotos #DicasDeMoto #OficinaAraras #MotosBrasil` + 2 específicas do tema.
+`#MotokaoAraras #ArarasSP #CG160 #MecanicaDeMotos #DicasDeMoto #OficinaAraras #MotosBrasil` + 2 específicas do tema.
+
+## Design System — Motokão (obrigatório)
+
+Toda arte deve seguir o **design-system.json** e **tokens.css** em `references/`:
+
+**Paleta canônica (não inventar):**
+- `--color-brand-red-primary: #E30613` — urgência, promo, headband Motoko
+- `--color-brand-red-deep: #9F0000` — sombra/duotone
+- `--color-brand-ink: #080B10` — fundo técnico, texto sobre branco
+- `--color-brand-charcoal: #24262C` — traje Motoko, base técnica
+- `--color-brand-white: #F7F7F5` — legibilidade
+- `--color-accent-neon-amber: #FFC21A` — destaque preço/selo
+- `--color-accent-metal: #9EA5AE` — detalhe técnico
+
+**Tipografia:**
+- Display: `Arial Narrow / Roboto Condensed` — títulos condensados, caixa alta, tracking apertado, sombra `8px 8px 0 rgba(8,11,16,.75)`
+- Body: `Montserrat / Poppins / Inter` — legendas e corpo
+
+**Mascote Motoko (usar como continuidade):**
+- Identidade canônica: **3D CGI chibi ninja mecânico** — cabeça grande arredondada, faixa vermelha com badge branco "M" vermelho, máscara preta fosca, olhos castanho-escuro brilhantes, traje charcoal com faixa/sash vermelha, caudas cachecol vermelhas, luvas sem dedos. Ver `references/motoko-character-sheet.png` e `references/motoko-character-sheet.txt` para prompt exato.
+- Não misturar com variante flat 2D (exceção secundária) e não adicionar armas/capacetes/armaduras.
+- Usar Motoko para: capa carrossel, thumb Reels, selo "desde 1990", gesto apontando para CTA.
+
+**Efeitos e gramática visual:**
+- Duotone vermelho sobre foto oficina para unificar e garantir legibilidade (fallback: scrim escuro neutro).
+- Grain/brush sutil no fundo para tactilidade urbana.
+- Diagonal/speed lines, regras brancas inclinadas, faixas vermelhas diagonais — movimento sem moto em movimento.
+- Bordas: `radius-card 20px`, `radius-pill 999px`, borda 2px branca em cards sobre foto.
+- Motion: fast 180ms / base 420ms / slow 720ms, ease `cubic-bezier(0.22,1,0.36,1)`.
+
+**Regras de produção (do handoff):**
+1. Usar logotipo vetorial original quando disponível (não vetorizar screenshot).
+2. Textos e preços no layout (Canva/Figma), nunca dentro do gerador de imagem.
+3. Validar contraste branco/vermelho sobre cada foto/crop.
+4. Manter 7% safe area nas bordas.
+
+Referências completas: `references/design-system.json` (contrato v2), `references/tokens.css`, `references/handoff.md`, `references/motoko-character-sheet.png`.
 
 ## Tom e Regras
 - PT-BR, interior paulista, direto, sem inglês.
