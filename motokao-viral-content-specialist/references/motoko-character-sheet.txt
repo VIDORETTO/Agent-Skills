@@ -1,0 +1,10 @@
+Use case: stylized-concept
+Asset type: one professional mascot character model sheet / turnaround board for a motorcycle-parts and specialized-workshop brand.
+
+Create ONE single coherent landscape 16:9 character reference sheet showing the exact same Motoko ninja mascot repeated consistently across multiple poses, camera angles, and expressions. Use the supplied Motokão screenshots only as identity, costume, material, palette and brand-energy references. Do not reproduce Instagram UI, unrelated people, captions, QR codes, campaign layouts or extra logos.
+
+Canonical identity: premium polished 3D stylized CGI, friendly chibi-proportioned ninja mechanic, oversized rounded head, compact athletic body, bright racing-red headband with a white circular badge and simple red M, matte-black face mask, large glossy dark-brown eyes, thick black eyebrows, dark charcoal technical suit, red diagonal chest accents, red waist sash, two red scarf tails, fingerless black gloves, small cool-gray/teal technical details, dark sneakers. Keep the exact same face, eye shape, headband, mask, proportions, costume and scarf in every view. No swords, weapons, helmets, fantasy armor, extra characters or alternate costumes.
+
+Layout: one clean warm light-gray/off-white studio sheet with subtle charcoal technical grid and restrained red framing accents. Show 8 large full-body views: front neutral; three-quarter left pointing to viewer; three-quarter right arms crossed; left profile; right profile with playful wink and wave; back three-quarter showing scarf and sash; low-angle crouched ready-to-move; heroic raised fist. Add 6 small head-and-shoulder expression studies: neutral focus, happy squint, playful wink, surprised alert, determined concentration, reassuring friendly eyes.
+
+Visual direction: bold red-black-white contrast, high-contrast studio key light, soft rim light, tactile fabric, premium glossy-plastic accents, crisp silhouettes, restrained red/orange glow. No large typography, no watermark, no UI, no QR code, no busy scene. Prioritize identity continuity and readable silhouettes over novelty.

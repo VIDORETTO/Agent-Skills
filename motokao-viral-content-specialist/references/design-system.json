@@ -1,0 +1,2103 @@
+{
+  "meta": {
+    "schema_version": 2,
+    "name": "Motokão Social & Mascot System",
+    "source_name": "motokao.virtual — supplied Instagram screenshots",
+    "generated_at": "2026-08-27T00:00:00Z",
+    "scope": [
+      "profile shell",
+      "Instagram feed post art direction",
+      "highlight covers",
+      "brand visual language",
+      "Motoko mascot identity",
+      "content and motion recommendations"
+    ],
+    "fidelity_target": "system-level screenshot extraction",
+    "overall_confidence": "medium",
+    "method_summary": "Screenshot-only extraction using ten supplied 709x1536 captures, repeated-pattern comparison, approximate visual sampling, and a generated mascot model sheet. Static evidence cannot prove DOM, exact font files, CSS breakpoints, interaction states, playback, or timing.",
+    "basis_legend": {
+      "observed": "directly visible in supplied evidence",
+      "computed": "deterministically derived from supplied evidence or file metadata",
+      "inferred": "best explanation of repeated visual patterns",
+      "recommended": "proposed system rule kept separate from source truth"
+    },
+    "confidence_legend": {
+      "high": "repeated direct evidence or file metadata",
+      "medium": "consistent across several limited samples",
+      "low": "screenshot estimate, candidate, inaccessible state, or ambiguous cause"
+    }
+  },
+  "sources": [
+    {
+      "id": "E-shot-profile-001",
+      "source_type": "screenshot",
+      "locator": "evidence/IMG_4160.jpeg",
+      "captured_at": "unknown (uploaded in current session)",
+      "context": {
+        "viewport": "709x1536",
+        "dpr": null,
+        "zoom": null,
+        "theme": "Instagram dark-mode chrome with light/dark feed thumbnails",
+        "locale": "pt-BR",
+        "auth_state": "profile-owner view visible in capture",
+        "ui_state": "profile overview with bio, highlights, feed grid"
+      },
+      "crop": "full screenshot including platform chrome",
+      "method": "visual inspection of supplied local image",
+      "notes": "Profile identity, bio hierarchy, highlight covers, three-column grid and mascot avatar.",
+      "limitations": [
+        "Instagram chrome is mixed with brand content.",
+        "Original capture time and device pixel ratio are unknown.",
+        "Profile values may have changed after capture."
+      ]
+    },
+    {
+      "id": "E-shot-mascot-pointing-002",
+      "source_type": "screenshot",
+      "locator": "evidence/IMG_4162.jpeg",
+      "captured_at": "unknown (uploaded in current session)",
+      "context": {
+        "viewport": "709x1536",
+        "dpr": null,
+        "zoom": null,
+        "theme": "Instagram dark-mode chrome; red/white mascot post",
+        "locale": "pt-BR",
+        "ui_state": "single post view"
+      },
+      "crop": "full screenshot; post art occupies central region",
+      "method": "visual inspection of supplied local image",
+      "notes": "Primary 3D Motoko identity reference: headband, mask, eyes, scarf, suit and pointing gesture.",
+      "limitations": [
+        "Post art is embedded inside platform chrome.",
+        "Exact source render and logo vector are unavailable."
+      ]
+    },
+    {
+      "id": "E-shot-mega-giro-003",
+      "source_type": "screenshot",
+      "locator": "evidence/IMG_4163.jpeg",
+      "captured_at": "unknown (uploaded in current session)",
+      "context": {
+        "viewport": "709x1536",
+        "dpr": null,
+        "zoom": null,
+        "theme": "Instagram dark-mode chrome; red promotional graphic",
+        "locale": "pt-BR",
+        "ui_state": "single post, carousel indicator visible"
+      },
+      "crop": "full screenshot",
+      "method": "visual inspection of supplied local image",
+      "notes": "Red promotional composition, oversized headline, circular/speed motif, glossy percentage balls and white logo lockup.",
+      "limitations": [
+        "Exact campaign artwork, font file and logo master are unavailable."
+      ]
+    },
+    {
+      "id": "E-shot-price-promo-004",
+      "source_type": "screenshot",
+      "locator": "evidence/IMG_4164.jpeg",
+      "captured_at": "unknown (uploaded in current session)",
+      "context": {
+        "viewport": "709x1536",
+        "dpr": null,
+        "zoom": null,
+        "theme": "Instagram dark-mode chrome; light gray/red promotional graphic",
+        "locale": "pt-BR",
+        "ui_state": "single post"
+      },
+      "crop": "full screenshot",
+      "method": "visual inspection of supplied local image",
+      "notes": "Light neutral field, red paint/brush block, white diagonal rules, condensed uppercase offer headline and percentage balls.",
+      "limitations": [
+        "Exact colors are estimates from compressed screenshot pixels."
+      ]
+    },
+    {
+      "id": "E-shot-technical-service-005",
+      "source_type": "screenshot",
+      "locator": "evidence/IMG_4172.jpeg",
+      "captured_at": "unknown (uploaded in current session)",
+      "context": {
+        "viewport": "709x1536",
+        "dpr": null,
+        "zoom": null,
+        "theme": "Instagram dark-mode chrome; workshop photo with red lower panel",
+        "locale": "pt-BR",
+        "ui_state": "single post"
+      },
+      "crop": "full screenshot",
+      "method": "visual inspection of supplied local image",
+      "notes": "Real workshop photography, strong red/white diagonal separation and large technical-service title.",
+      "limitations": [
+        "Photo treatment is visible but source editing layers are unavailable."
+      ]
+    },
+    {
+      "id": "E-shot-helmet-service-006",
+      "source_type": "screenshot",
+      "locator": "evidence/IMG_4169-1.jpeg",
+      "captured_at": "unknown (uploaded in current session)",
+      "context": {
+        "viewport": "709x1536",
+        "dpr": null,
+        "zoom": null,
+        "theme": "Instagram dark-mode chrome; red headline over store photography",
+        "locale": "pt-BR",
+        "ui_state": "single post"
+      },
+      "crop": "full screenshot",
+      "method": "visual inspection of supplied local image",
+      "notes": "Institutional/service proof: real people, helmets, black uniforms with red brand accents, red headline field.",
+      "limitations": [
+        "People and photo are treated as evidence only; no source media reuse is required."
+      ]
+    },
+    {
+      "id": "E-shot-review-007",
+      "source_type": "screenshot",
+      "locator": "evidence/IMG_4170.jpeg",
+      "captured_at": "unknown (uploaded in current session)",
+      "context": {
+        "viewport": "709x1536",
+        "dpr": null,
+        "zoom": null,
+        "theme": "Instagram dark-mode chrome; red-tinted store exterior",
+        "locale": "pt-BR",
+        "ui_state": "single post with QR-code call to action"
+      },
+      "crop": "full screenshot",
+      "method": "visual inspection of supplied local image",
+      "notes": "Red duotone storefront, centered logo, stacked headline, supporting line and QR card.",
+      "limitations": [
+        "QR destination and exact logo asset are not extracted.",
+        "Accessibility of the QR CTA cannot be assessed from the screenshot."
+      ]
+    },
+    {
+      "id": "E-shot-upgrades-008",
+      "source_type": "screenshot",
+      "locator": "evidence/IMG_4175.jpeg",
+      "captured_at": "unknown (uploaded in current session)",
+      "context": {
+        "viewport": "709x1536",
+        "dpr": null,
+        "zoom": null,
+        "theme": "Instagram dark-mode chrome; red-tinted workshop photo",
+        "locale": "pt-BR",
+        "ui_state": "single post"
+      },
+      "crop": "full screenshot",
+      "method": "visual inspection of supplied local image",
+      "notes": "Educational list pattern with oversized numeral, red wash, white logo and outlined CTA pill.",
+      "limitations": [
+        "Motion and carousel behavior are not observable."
+      ]
+    },
+    {
+      "id": "E-shot-safety-tip-009",
+      "source_type": "screenshot",
+      "locator": "evidence/IMG_4177.jpeg",
+      "captured_at": "unknown (uploaded in current session)",
+      "context": {
+        "viewport": "709x1536",
+        "dpr": null,
+        "zoom": null,
+        "theme": "Instagram dark-mode chrome; red textured educational graphic",
+        "locale": "pt-BR",
+        "ui_state": "single post"
+      },
+      "crop": "full screenshot",
+      "method": "visual inspection of supplied local image",
+      "notes": "Educational tip pattern, large black/white lettering, white paper-like card, orange glow and a flatter mascot variant.",
+      "limitations": [
+        "This variant differs from the canonical 3D mascot and should be treated as a secondary illustration style."
+      ]
+    },
+    {
+      "id": "E-shot-scooter-mascot-010",
+      "source_type": "screenshot",
+      "locator": "evidence/IMG_4184.jpeg",
+      "captured_at": "unknown (uploaded in current session)",
+      "context": {
+        "viewport": "709x1536",
+        "dpr": null,
+        "zoom": null,
+        "theme": "Instagram dark-mode chrome; 3D mascot on red scooter",
+        "locale": "pt-BR",
+        "ui_state": "single post"
+      },
+      "crop": "full screenshot",
+      "method": "visual inspection of supplied local image",
+      "notes": "Secondary 3D Motoko reference in action: scooter, low camera angle, red/black split background and speed energy.",
+      "limitations": [
+        "Vehicle model and exact render pipeline are not identified."
+      ]
+    }
+  ],
+  "principles": [
+    {
+      "id": "principle-agile-precision",
+      "label": "Agilidade técnica com precisão",
+      "value": "A marca transforma competência de oficina em uma persona ninja: rápida, precisa e confiável.",
+      "basis": "inferred",
+      "confidence": "medium",
+      "evidence_ids": [
+        "E-shot-profile-001",
+        "E-shot-mascot-pointing-002",
+        "E-shot-technical-service-005"
+      ]
+    },
+    {
+      "id": "principle-red-as-action",
+      "label": "Vermelho sinaliza ação",
+      "value": "O vermelho concentra atenção em ofertas, títulos, separadores, energia e chamadas para ação.",
+      "basis": "inferred",
+      "confidence": "high",
+      "evidence_ids": [
+        "E-shot-mega-giro-003",
+        "E-shot-price-promo-004",
+        "E-shot-review-007",
+        "E-shot-upgrades-008"
+      ]
+    },
+    {
+      "id": "principle-real-proof-plus-graphic",
+      "label": "Prova real + camada editorial",
+      "value": "Fotos de oficina, loja, mecânicos e clientes recebem uma camada gráfica redacional de alto contraste.",
+      "basis": "inferred",
+      "confidence": "high",
+      "evidence_ids": [
+        "E-shot-technical-service-005",
+        "E-shot-helmet-service-006",
+        "E-shot-review-007",
+        "E-shot-upgrades-008"
+      ]
+    },
+    {
+      "id": "principle-one-focal-gesture",
+      "label": "Uma ação focal por peça",
+      "value": "Cada composição concentra leitura em um gesto: headline, numeral, mascote, produto, QR ou CTA.",
+      "basis": "inferred",
+      "confidence": "medium",
+      "evidence_ids": [
+        "E-shot-mascot-pointing-002",
+        "E-shot-mega-giro-003",
+        "E-shot-review-007",
+        "E-shot-upgrades-008"
+      ]
+    }
+  ],
+  "foundations": {
+    "colors": [
+      {
+        "token": "color.brand.red.primary",
+        "value": "#E30613",
+        "usage": [
+          "large promotional fields",
+          "headband",
+          "sashes",
+          "dividers",
+          "headline emphasis"
+        ],
+        "contrast_context": "Use with white or near-black type; verify final contrast on textured backgrounds.",
+        "basis": "inferred",
+        "confidence": "medium",
+        "evidence_ids": [
+          "E-shot-mascot-pointing-002",
+          "E-shot-mega-giro-003",
+          "E-shot-price-promo-004",
+          "E-shot-technical-service-005"
+        ],
+        "notes": "Approximate screen-derived cluster; exact production RGB/CMYK/Pantone not supplied."
+      },
+      {
+        "token": "color.brand.red.deep",
+        "value": "#9F0000",
+        "usage": [
+          "duotone shadows",
+          "background depth",
+          "dark red overlays"
+        ],
+        "contrast_context": "Use as a field or overlay; do not rely on it for small white text without testing.",
+        "basis": "inferred",
+        "confidence": "low",
+        "evidence_ids": [
+          "E-shot-review-007",
+          "E-shot-upgrades-008"
+        ],
+        "notes": "Visual approximation, not an exact sampled source token."
+      },
+      {
+        "token": "color.brand.ink",
+        "value": "#080B10",
+        "usage": [
+          "dark canvas",
+          "mascot suit",
+          "text shadow",
+          "profile visual field"
+        ],
+        "contrast_context": "Best paired with white, red or neon amber accents.",
+        "basis": "inferred",
+        "confidence": "medium",
+        "evidence_ids": [
+          "E-shot-profile-001",
+          "E-shot-mascot-pointing-002",
+          "E-shot-safety-tip-009"
+        ],
+        "notes": "Partially overlaps Instagram dark-mode chrome; ownership by the brand is not provable from screenshots."
+      },
+      {
+        "token": "color.brand.charcoal",
+        "value": "#24262C",
+        "usage": [
+          "technical panels",
+          "suit midtones",
+          "cards",
+          "metallic ring interiors"
+        ],
+        "contrast_context": "Use white as primary text; red as accent.",
+        "basis": "inferred",
+        "confidence": "medium",
+        "evidence_ids": [
+          "E-shot-profile-001",
+          "E-shot-mascot-pointing-002",
+          "E-shot-helmet-service-006"
+        ]
+      },
+      {
+        "token": "color.brand.white",
+        "value": "#F7F7F5",
+        "usage": [
+          "logo",
+          "headline",
+          "diagonal separators",
+          "paper-like cards"
+        ],
+        "contrast_context": "Primary light foreground against red/black fields.",
+        "basis": "inferred",
+        "confidence": "medium",
+        "evidence_ids": [
+          "E-shot-mega-giro-003",
+          "E-shot-price-promo-004",
+          "E-shot-review-007",
+          "E-shot-safety-tip-009"
+        ]
+      },
+      {
+        "token": "color.accent.neon-amber",
+        "value": "#FFC21A",
+        "usage": [
+          "highlight-cover line icons",
+          "warm glow",
+          "small attention accents"
+        ],
+        "contrast_context": "Use on dark backgrounds only; not as body-text color.",
+        "basis": "observed",
+        "confidence": "medium",
+        "evidence_ids": [
+          "E-shot-profile-001"
+        ],
+        "notes": "The neon ring system is visually distinct from the feed palette."
+      },
+      {
+        "token": "color.accent.metal",
+        "value": "#9EA5AE",
+        "usage": [
+          "highlight-cover outer rings",
+          "cool technical details",
+          "subtle UI-like outlines"
+        ],
+        "contrast_context": "Decorative/structural; pair with dark ink.",
+        "basis": "inferred",
+        "confidence": "low",
+        "evidence_ids": [
+          "E-shot-profile-001",
+          "E-shot-mascot-pointing-002"
+        ]
+      },
+      {
+        "token": "color.platform.instagram-blue",
+        "value": "#5D70FF",
+        "usage": [
+          "platform action button in screenshot"
+        ],
+        "contrast_context": "Platform chrome; do not promote to a Motokão brand token.",
+        "basis": "observed",
+        "confidence": "medium",
+        "evidence_ids": [
+          "E-shot-profile-001"
+        ],
+        "notes": "Explicitly excluded from brand palette."
+      }
+    ],
+    "typography": [
+      {
+        "token": "type.display.impact",
+        "family": null,
+        "family_candidates": [
+          "Bebas Neue",
+          "Anton",
+          "Oswald Heavy Italic",
+          "equivalent condensed grotesk"
+        ],
+        "weight": "800–900 candidate",
+        "size": "estimated 64–120px on 1080x1350 post canvas",
+        "line_height": "estimated 0.85–1.0em",
+        "letter_spacing": "tight to slightly negative",
+        "transform": "uppercase",
+        "style": "oblique/italic",
+        "usage": [
+          "post headlines",
+          "promotional claims",
+          "service titles",
+          "large numerals"
+        ],
+        "basis": "inferred",
+        "confidence": "medium",
+        "evidence_ids": [
+          "E-shot-mega-giro-003",
+          "E-shot-price-promo-004",
+          "E-shot-technical-service-005",
+          "E-shot-upgrades-008"
+        ],
+        "notes": "Exact font family and file loading cannot be proven from screenshots."
+      },
+      {
+        "token": "type.body.utility",
+        "family": null,
+        "family_candidates": [
+          "Montserrat",
+          "Poppins",
+          "clean geometric sans"
+        ],
+        "weight": "500–700 candidate",
+        "size": "estimated 24–42px on 1080x1350 post canvas; smaller in profile bio",
+        "line_height": "estimated 1.1–1.35em",
+        "letter_spacing": "normal",
+        "transform": "sentence case or uppercase labels",
+        "usage": [
+          "supporting copy",
+          "CTA labels",
+          "bio and location information",
+          "small explanatory lines"
+        ],
+        "basis": "inferred",
+        "confidence": "low",
+        "evidence_ids": [
+          "E-shot-profile-001",
+          "E-shot-price-promo-004",
+          "E-shot-safety-tip-009"
+        ]
+      },
+      {
+        "token": "type.logo.lockup",
+        "family": null,
+        "family_candidates": [
+          "custom wordmark"
+        ],
+        "weight": null,
+        "size": null,
+        "line_height": null,
+        "letter_spacing": null,
+        "transform": "uppercase",
+        "usage": [
+          "white racing/speed mark plus MOTOKÃO wordmark"
+        ],
+        "basis": "observed",
+        "confidence": "medium",
+        "evidence_ids": [
+          "E-shot-mega-giro-003",
+          "E-shot-review-007",
+          "E-shot-upgrades-008"
+        ],
+        "notes": "Use the original vector master for production. Do not redraw from screenshots."
+      }
+    ],
+    "spacing": [
+      {
+        "token": "spacing.apparent-ui-scale",
+        "value": [
+          "estimated 8px",
+          "16px",
+          "24px",
+          "32px",
+          "48px"
+        ],
+        "usage": [
+          "repeated profile chrome gaps",
+          "headline/panel padding candidates"
+        ],
+        "basis": "inferred",
+        "confidence": "low",
+        "evidence_ids": [
+          "E-shot-profile-001",
+          "E-shot-price-promo-004"
+        ],
+        "notes": "No consistent spacing scale can be proven from screenshots alone; preserve optical exceptions."
+      },
+      {
+        "token": "spacing.social.safe-margin",
+        "value": "estimated 6–10% of canvas",
+        "usage": [
+          "headline and logo safe zone"
+        ],
+        "basis": "inferred",
+        "confidence": "low",
+        "evidence_ids": [
+          "E-shot-mega-giro-003",
+          "E-shot-price-promo-004",
+          "E-shot-upgrades-008"
+        ]
+      }
+    ],
+    "sizing": [
+      {
+        "token": "size.feed-post-ratio",
+        "value": "4:5 recommended/consistent with supplied post art",
+        "usage": [
+          "Instagram feed art"
+        ],
+        "basis": "inferred",
+        "confidence": "medium",
+        "evidence_ids": [
+          "E-shot-mega-giro-003",
+          "E-shot-price-promo-004",
+          "E-shot-technical-service-005",
+          "E-shot-scooter-mascot-010"
+        ]
+      },
+      {
+        "token": "size.profile-grid",
+        "value": "3 columns, square cells",
+        "usage": [
+          "profile feed grid"
+        ],
+        "basis": "observed",
+        "confidence": "high",
+        "evidence_ids": [
+          "E-shot-profile-001"
+        ]
+      },
+      {
+        "token": "size.highlight-cover",
+        "value": "circular cover with concentric ring system",
+        "usage": [
+          "profile highlights"
+        ],
+        "basis": "observed",
+        "confidence": "high",
+        "evidence_ids": [
+          "E-shot-profile-001"
+        ]
+      }
+    ],
+    "grid": [
+      {
+        "token": "grid.profile-feed",
+        "columns": 3,
+        "gutter": "platform-defined; visually near-zero between cells",
+        "max_width": null,
+        "basis": "observed",
+        "confidence": "high",
+        "evidence_ids": [
+          "E-shot-profile-001"
+        ]
+      },
+      {
+        "token": "grid.post-editorial",
+        "columns": "single focal column plus overlay zones",
+        "gutter": "estimated 6–10% canvas",
+        "max_width": null,
+        "basis": "inferred",
+        "confidence": "medium",
+        "evidence_ids": [
+          "E-shot-mega-giro-003",
+          "E-shot-price-promo-004",
+          "E-shot-technical-service-005",
+          "E-shot-upgrades-008"
+        ]
+      }
+    ],
+    "radii": [
+      {
+        "token": "radius.pill",
+        "value": "full/999px semantic radius",
+        "usage": [
+          "outlined CTA",
+          "action chip",
+          "small control"
+        ],
+        "basis": "observed",
+        "confidence": "medium",
+        "evidence_ids": [
+          "E-shot-upgrades-008",
+          "E-shot-profile-001"
+        ]
+      },
+      {
+        "token": "radius.highlight",
+        "value": "50%",
+        "usage": [
+          "highlight cover and ring system"
+        ],
+        "basis": "observed",
+        "confidence": "high",
+        "evidence_ids": [
+          "E-shot-profile-001"
+        ]
+      },
+      {
+        "token": "radius.editorial-card",
+        "value": "estimated 16–24px",
+        "usage": [
+          "paper-like educational panel"
+        ],
+        "basis": "inferred",
+        "confidence": "low",
+        "evidence_ids": [
+          "E-shot-safety-tip-009"
+        ]
+      }
+    ],
+    "borders": [
+      {
+        "token": "border.rule.white",
+        "value": "thin white diagonal rule",
+        "usage": [
+          "image/text split",
+          "framing"
+        ],
+        "basis": "observed",
+        "confidence": "high",
+        "evidence_ids": [
+          "E-shot-price-promo-004",
+          "E-shot-technical-service-005"
+        ]
+      },
+      {
+        "token": "border.cta.outline",
+        "value": "1–2px white outline candidate",
+        "usage": [
+          "CTA pill"
+        ],
+        "basis": "inferred",
+        "confidence": "low",
+        "evidence_ids": [
+          "E-shot-upgrades-008"
+        ]
+      }
+    ],
+    "shadows": [
+      {
+        "token": "shadow.headline.depth",
+        "value": "black/red offset depth; exact offsets unknown",
+        "usage": [
+          "large display lettering",
+          "logo and promotional depth"
+        ],
+        "basis": "observed",
+        "confidence": "medium",
+        "evidence_ids": [
+          "E-shot-mega-giro-003",
+          "E-shot-technical-service-005"
+        ]
+      },
+      {
+        "token": "shadow.mascot.rim",
+        "value": "soft controlled cast/rim shadow",
+        "usage": [
+          "3D mascot separation from background"
+        ],
+        "basis": "observed",
+        "confidence": "medium",
+        "evidence_ids": [
+          "E-shot-mascot-pointing-002",
+          "E-shot-scooter-mascot-010"
+        ]
+      }
+    ],
+    "opacity": [
+      {
+        "token": "opacity.photo-duotone-scrim",
+        "value": "estimated 50–85% red wash depending on legibility",
+        "usage": [
+          "workshop/store photography under text"
+        ],
+        "basis": "inferred",
+        "confidence": "low",
+        "evidence_ids": [
+          "E-shot-review-007",
+          "E-shot-upgrades-008"
+        ]
+      }
+    ],
+    "z_index": [
+      {
+        "token": "layer.order.editorial",
+        "value": [
+          "photo/background",
+          "red scrim or brush field",
+          "white separators",
+          "headline",
+          "logo/CTA"
+        ],
+        "usage": [
+          "post composition"
+        ],
+        "basis": "inferred",
+        "confidence": "medium",
+        "evidence_ids": [
+          "E-shot-price-promo-004",
+          "E-shot-technical-service-005",
+          "E-shot-review-007"
+        ]
+      }
+    ],
+    "iconography": [
+      {
+        "token": "icon.highlight.neon-line",
+        "library_or_candidate": "custom/simple line icon family",
+        "stroke": "yellow/orange luminous stroke",
+        "fill": "none or dark interior",
+        "size": "centered inside circular highlight cover",
+        "alignment": "optically centered",
+        "usage": [
+          "promo",
+          "products",
+          "services",
+          "who we are"
+        ],
+        "basis": "observed",
+        "confidence": "high",
+        "evidence_ids": [
+          "E-shot-profile-001"
+        ]
+      },
+      {
+        "token": "icon.post.outline-cta",
+        "library_or_candidate": "simple white outline symbol",
+        "stroke": "white",
+        "fill": "none",
+        "size": "large enough for mobile reading",
+        "alignment": "near lower third",
+        "usage": [
+          "read more / next-action cue"
+        ],
+        "basis": "observed",
+        "confidence": "medium",
+        "evidence_ids": [
+          "E-shot-upgrades-008"
+        ]
+      }
+    ],
+    "imagery": [
+      {
+        "token": "imagery.mascot.3d-cgi",
+        "ratio": "portrait or cutout",
+        "crop": "full-body hero, close-up or action crop",
+        "treatment": "premium 3D render, black/red suit, red scarf, strong rim light",
+        "overlays": [
+          "red circular/speed motif",
+          "neutral or red field"
+        ],
+        "basis": "observed",
+        "confidence": "high",
+        "evidence_ids": [
+          "E-shot-mascot-pointing-002",
+          "E-shot-scooter-mascot-010"
+        ]
+      },
+      {
+        "token": "imagery.workshop.photo",
+        "ratio": "portrait social post",
+        "crop": "full scene or people/product detail",
+        "treatment": "real documentary photo with high contrast; often red duotone",
+        "overlays": [
+          "scrim",
+          "large white/red headline",
+          "diagonal divider"
+        ],
+        "basis": "observed",
+        "confidence": "high",
+        "evidence_ids": [
+          "E-shot-technical-service-005",
+          "E-shot-helmet-service-006",
+          "E-shot-review-007",
+          "E-shot-upgrades-008"
+        ]
+      },
+      {
+        "token": "imagery.graphic-texture",
+        "ratio": "full canvas",
+        "crop": "edge-to-edge",
+        "treatment": "brush, grain, halftone, concrete/urban texture, orange glow accents",
+        "overlays": [
+          "paper/card",
+          "red field",
+          "white rules"
+        ],
+        "basis": "observed",
+        "confidence": "medium",
+        "evidence_ids": [
+          "E-shot-price-promo-004",
+          "E-shot-safety-tip-009"
+        ]
+      }
+    ]
+  },
+  "responsive": {
+    "rules": [
+      {
+        "id": "responsive-profile-mobile",
+        "name": "Mobile profile shell",
+        "observed_range": "709px-wide screenshot only",
+        "container_behavior": "platform full-bleed mobile shell",
+        "transformations": [
+          "profile actions stack in a compact row",
+          "highlights remain horizontally scrollable",
+          "feed uses three square columns",
+          "bio wraps across multiple lines"
+        ],
+        "basis": "observed",
+        "confidence": "high",
+        "evidence_ids": [
+          "E-shot-profile-001"
+        ],
+        "notes": "Observed in one mobile capture; no desktop or tablet comparison."
+      },
+      {
+        "id": "responsive-post-safe-zone",
+        "name": "Post text-safe zones",
+        "observed_range": "portrait social canvas",
+        "container_behavior": "single focal composition with edge breathing room",
+        "transformations": [
+          "headline remains grouped rather than split across unrelated regions",
+          "logo and CTA are held away from bottom platform chrome",
+          "background detail is suppressed behind copy with scrim/duotone"
+        ],
+        "basis": "inferred",
+        "confidence": "medium",
+        "evidence_ids": [
+          "E-shot-price-promo-004",
+          "E-shot-technical-service-005",
+          "E-shot-review-007"
+        ]
+      },
+      {
+        "id": "responsive-feed-recommendation",
+        "name": "Responsive production extension",
+        "observed_range": null,
+        "container_behavior": "keep 4:5 artwork; use 9:16 adaptation for Stories/Reels",
+        "transformations": [
+          "reflow headline before shrinking it below comfortable mobile reading",
+          "move CTA and logo into explicit safe zones",
+          "retain one focal gesture",
+          "replace dense background texture with a flatter fallback when legibility drops"
+        ],
+        "basis": "recommended",
+        "confidence": "low",
+        "evidence_ids": [],
+        "rationale": "No second viewport was supplied; this is a practical implementation rule, not source truth."
+      }
+    ],
+    "breakpoints": [
+      {
+        "id": "breakpoint-unknown",
+        "value": null,
+        "basis": "recommended",
+        "confidence": "low",
+        "evidence_ids": [],
+        "notes": "Exact CSS breakpoints cannot be established from screenshots."
+      }
+    ],
+    "fluid_values": [],
+    "gaps": [
+      "No tablet or desktop capture.",
+      "No route-level responsive comparison.",
+      "No evidence for mobile data-saver or layout substitutions."
+    ]
+  },
+  "motion": {
+    "patterns": [
+      {
+        "id": "motion-diagonal-entry",
+        "name": "Diagonal editorial entry",
+        "trigger": "unknown",
+        "driver": "unknown",
+        "job": "hierarchy/navigation",
+        "properties": [
+          "likely transform/clip-path/opacity candidate"
+        ],
+        "delay": null,
+        "duration": null,
+        "easing": null,
+        "choreography": "unknown",
+        "interruption_reversal": "unknown",
+        "reduced_motion": "static composition or simple opacity",
+        "performance": "recommended compositor-friendly transform/opacity",
+        "basis": "recommended",
+        "confidence": "low",
+        "evidence_ids": [],
+        "rationale": "Diagonal rules are visible as static design language; animation is not evidenced."
+      },
+      {
+        "id": "motion-mascot-hero",
+        "name": "Mascot hero reveal",
+        "trigger": "unknown",
+        "driver": "unknown",
+        "job": "focal hierarchy",
+        "properties": [
+          "likely scale/translate/opacity candidate"
+        ],
+        "delay": null,
+        "duration": null,
+        "easing": null,
+        "choreography": "unknown",
+        "interruption_reversal": "unknown",
+        "reduced_motion": "show final mascot frame immediately",
+        "performance": "prefer transform and opacity",
+        "basis": "recommended",
+        "confidence": "low",
+        "evidence_ids": [],
+        "rationale": "The mascot is the focal gesture in two supplied posts, but no recording was provided."
+      }
+    ],
+    "reduced_motion": {
+      "behavior": "Disable kinetic wipes, pulsing neon and parallax; preserve final composition, contrast and content.",
+      "basis": "recommended",
+      "confidence": "low",
+      "evidence_ids": [],
+      "notes": "No reduced-motion state was supplied."
+    },
+    "gaps": [
+      "No video file or screen recording.",
+      "No measured duration, delay, easing, stagger or trigger.",
+      "No hover, focus, scroll, autoplay or interruption evidence."
+    ]
+  },
+  "components": [
+    {
+      "id": "component-profile-shell",
+      "name": "Profile shell",
+      "role": "platform-hosted brand entry point",
+      "anatomy": [
+        "avatar",
+        "display name/category",
+        "post/follower/following metrics",
+        "bio",
+        "location/link",
+        "profile actions",
+        "highlight rail",
+        "feed grid"
+      ],
+      "variants": [
+        "owner view observed",
+        "public visitor view not supplied"
+      ],
+      "sizes": [
+        "mobile screenshot observed"
+      ],
+      "states": [
+        "profile overview observed",
+        "selected feed tab observed",
+        "other tabs unknown",
+        "hover",
+        "focus-visible"
+      ],
+      "tokens_used": [
+        "color.brand.ink",
+        "color.brand.red.primary",
+        "color.accent.neon-amber",
+        "size.profile-grid",
+        "size.highlight-cover"
+      ],
+      "content_rules": [
+        "lead with business category and clear service scope",
+        "use short benefit proposition",
+        "make physical/virtual availability explicit",
+        "surface address/link as utility information"
+      ],
+      "responsive_behavior": "Platform-controlled mobile layout observed; broader behavior unknown.",
+      "interaction": {
+        "observed": [
+          "profile action controls visible"
+        ],
+        "unknown": [
+          "focus",
+          "hover",
+          "scroll",
+          "link destination"
+        ]
+      },
+      "accessibility": {
+        "observed": "Not assessable from image-only evidence.",
+        "recommended": [
+          "Use descriptive alt text for avatar/highlights where platform allows.",
+          "Do not encode service categories by color alone."
+        ]
+      },
+      "basis": "observed",
+      "confidence": "high",
+      "evidence_ids": [
+        "E-shot-profile-001"
+      ]
+    },
+    {
+      "id": "component-highlight-ring",
+      "name": "Neon highlight cover",
+      "role": "persistent content-category index",
+      "anatomy": [
+        "dark circular field",
+        "outer gray/metallic rings",
+        "inner red/orange ring",
+        "yellow line icon",
+        "label below"
+      ],
+      "variants": [
+        "new/add",
+        "promotion",
+        "products",
+        "services",
+        "who we are"
+      ],
+      "sizes": [
+        "circular thumbnail"
+      ],
+      "states": [
+        "default visible",
+        "active/visited unknown",
+        "hover",
+        "focus-visible"
+      ],
+      "tokens_used": [
+        "color.brand.ink",
+        "color.accent.neon-amber",
+        "color.accent.metal",
+        "icon.highlight.neon-line",
+        "radius.highlight"
+      ],
+      "content_rules": [
+        "one noun/category per highlight",
+        "icon must remain legible at thumbnail scale",
+        "keep ring geometry consistent across categories"
+      ],
+      "responsive_behavior": "Horizontal rail on mobile; item count beyond viewport scrolls.",
+      "interaction": {
+        "observed": "Clickable affordance implied by platform presentation.",
+        "unknown": [
+          "active ring behavior",
+          "story transition"
+        ]
+      },
+      "accessibility": {
+        "recommended": [
+          "Repeat the category in visible text below the icon.",
+          "Use concise accessible names."
+        ]
+      },
+      "basis": "observed",
+      "confidence": "high",
+      "evidence_ids": [
+        "E-shot-profile-001"
+      ]
+    },
+    {
+      "id": "component-mascot-hero",
+      "name": "Motoko mascot hero",
+      "role": "brand recognition and action cue",
+      "anatomy": [
+        "red M headband",
+        "black mask",
+        "large brown eyes and heavy brows",
+        "black technical suit",
+        "red chest stripes",
+        "red waist sash",
+        "red scarf tails",
+        "rounded 3D silhouette"
+      ],
+      "variants": [
+        "close-up pointing",
+        "full-body action",
+        "scooter/riding context",
+        "secondary flat illustration variant"
+      ],
+      "sizes": [
+        "avatar crop",
+        "close-up post crop",
+        "full-body post hero"
+      ],
+      "states": [
+        "neutral",
+        "confident",
+        "determined",
+        "playful",
+        "friendly",
+        "hover",
+        "focus-visible"
+      ],
+      "tokens_used": [
+        "color.brand.red.primary",
+        "color.brand.ink",
+        "color.brand.charcoal",
+        "imagery.mascot.3d-cgi",
+        "shadow.mascot.rim"
+      ],
+      "content_rules": [
+        "lock costume and facial proportions",
+        "use eyes and brows as primary expression system",
+        "keep one clear gesture per composition",
+        "add vehicles or products only when they support the motorcycle context"
+      ],
+      "responsive_behavior": "Use close crop for small placements; preserve headband, eyes and mask in every crop.",
+      "interaction": {
+        "observed": "Static poses only.",
+        "recommended": "Animate with restrained transform/opacity; provide static fallback."
+      },
+      "accessibility": {
+        "recommended": [
+          "Pair decorative mascot art with HTML text conveying the message.",
+          "Use meaningful alt text only when the mascot communicates information."
+        ]
+      },
+      "basis": "observed",
+      "confidence": "high",
+      "evidence_ids": [
+        "E-shot-mascot-pointing-002",
+        "E-shot-scooter-mascot-010"
+      ]
+    },
+    {
+      "id": "component-editorial-post",
+      "name": "Editorial social post",
+      "role": "single-message feed creative",
+      "anatomy": [
+        "background photo or graphic field",
+        "red scrim/brush/duotone",
+        "display headline",
+        "supporting line",
+        "logo lockup",
+        "CTA or QR when needed"
+      ],
+      "variants": [
+        "promotion",
+        "technical service",
+        "institutional/review",
+        "educational tip",
+        "mascot-led"
+      ],
+      "sizes": [
+        "4:5 feed art inferred"
+      ],
+      "states": [
+        "static composition observed",
+        "carousel position visible once",
+        "video state unknown",
+        "hover",
+        "focus-visible"
+      ],
+      "tokens_used": [
+        "type.display.impact",
+        "type.body.utility",
+        "color.brand.red.primary",
+        "color.brand.white",
+        "border.rule.white",
+        "shadow.headline.depth",
+        "imagery.workshop.photo",
+        "imagery.graphic-texture"
+      ],
+      "content_rules": [
+        "one message per card",
+        "headline first; support and CTA second",
+        "keep copy in HTML/caption when producing web equivalents",
+        "avoid covering faces, product details or critical photo information"
+      ],
+      "responsive_behavior": "Reflow headline and protect safe zones in 9:16 adaptations; exact source behavior unknown.",
+      "interaction": {
+        "observed": [
+          "carousel indicator in one screenshot",
+          "platform save/share/comment controls"
+        ],
+        "unknown": [
+          "post animation",
+          "swipe transitions"
+        ]
+      },
+      "accessibility": {
+        "observed": "Text is visually high contrast in most samples; no programmatic semantics observable.",
+        "recommended": [
+          "Provide alt text/transcript for image/video content.",
+          "Check contrast over every photo crop.",
+          "Do not make QR the only path to an action."
+        ]
+      },
+      "basis": "observed",
+      "confidence": "high",
+      "evidence_ids": [
+        "E-shot-mega-giro-003",
+        "E-shot-price-promo-004",
+        "E-shot-technical-service-005",
+        "E-shot-review-007",
+        "E-shot-upgrades-008"
+      ]
+    },
+    {
+      "id": "component-outline-cta",
+      "name": "Outlined CTA pill",
+      "role": "low-noise next-action cue",
+      "anatomy": [
+        "short imperative label",
+        "white outline",
+        "optional chevron/arrow"
+      ],
+      "variants": [
+        "read more",
+        "contact",
+        "review"
+      ],
+      "sizes": [
+        "mobile-readable compact pill"
+      ],
+      "states": [
+        "static visible",
+        "hover/focus/pressed unknown",
+        "hover",
+        "focus-visible"
+      ],
+      "tokens_used": [
+        "type.body.utility",
+        "color.brand.white",
+        "border.cta.outline",
+        "radius.pill"
+      ],
+      "content_rules": [
+        "use 2–5 words where possible",
+        "verb-first language",
+        "avoid low-contrast red-on-red text"
+      ],
+      "responsive_behavior": "Keep label intact; allow width growth before reducing type.",
+      "interaction": {
+        "observed": "Affordance visible; interaction not testable.",
+        "recommended": "Keyboard focus and pressed state for web equivalents."
+      },
+      "accessibility": {
+        "recommended": [
+          "Use a real button/link with an accessible name.",
+          "Provide visible focus independent of color."
+        ]
+      },
+      "basis": "observed",
+      "confidence": "medium",
+      "evidence_ids": [
+        "E-shot-upgrades-008"
+      ]
+    },
+    {
+      "id": "component-promo-orb",
+      "name": "Glossy percentage orb",
+      "role": "promotional energy accent",
+      "anatomy": [
+        "glossy sphere",
+        "black or red surface",
+        "white percentage symbol",
+        "blur/motion depth when near edge"
+      ],
+      "variants": [
+        "black",
+        "red"
+      ],
+      "sizes": [
+        "small floating accent"
+      ],
+      "states": [
+        "static visible",
+        "motion/physics unknown",
+        "hover",
+        "focus-visible"
+      ],
+      "tokens_used": [
+        "color.brand.red.primary",
+        "color.brand.ink",
+        "color.brand.white",
+        "shadow.headline.depth"
+      ],
+      "content_rules": [
+        "use only in offers/promotions",
+        "keep away from essential copy",
+        "avoid using more than a few orbs per composition"
+      ],
+      "responsive_behavior": "Reduce count or remove on narrow crops when they compete with text.",
+      "interaction": {
+        "observed": "Static/blurred positions only.",
+        "unknown": [
+          "drag",
+          "parallax",
+          "loop"
+        ]
+      },
+      "accessibility": {
+        "recommended": [
+          "Decorative by default; hide from assistive technology when redundant."
+        ]
+      },
+      "basis": "observed",
+      "confidence": "high",
+      "evidence_ids": [
+        "E-shot-mega-giro-003",
+        "E-shot-price-promo-004"
+      ]
+    }
+  ],
+  "patterns": [
+    {
+      "id": "pattern-profile-entry",
+      "name": "Profile entry",
+      "shell_regions": [
+        "brand avatar",
+        "business descriptor",
+        "proof metrics",
+        "bio proposition",
+        "utility link/location",
+        "highlight index",
+        "three-column content grid"
+      ],
+      "hierarchy": [
+        "identity",
+        "scope",
+        "proof/utility",
+        "content navigation"
+      ],
+      "density": "compact mobile profile",
+      "composition_rules": [
+        "dark platform field makes red/white brand elements pop",
+        "highlight rings form a visual category index",
+        "feed thumbnails alternate red graphics, mascot and photography"
+      ],
+      "responsive_transformation": "Mobile observed; desktop unknown.",
+      "basis": "observed",
+      "confidence": "high",
+      "evidence_ids": [
+        "E-shot-profile-001"
+      ]
+    },
+    {
+      "id": "pattern-promotion",
+      "name": "Promotion / offer",
+      "shell_regions": [
+        "red or light neutral background",
+        "oversized offer headline",
+        "percentage or speed motifs",
+        "logo lockup",
+        "optional caption/carousel continuation"
+      ],
+      "hierarchy": [
+        "offer",
+        "benefit",
+        "brand"
+      ],
+      "density": "high-impact, low supporting-copy density",
+      "composition_rules": [
+        "red carries urgency",
+        "white headline stays legible over texture",
+        "orbs are peripheral accents, never the message"
+      ],
+      "responsive_transformation": "Keep headline grouping; remove decorative orbs before shrinking type.",
+      "basis": "observed",
+      "confidence": "high",
+      "evidence_ids": [
+        "E-shot-mega-giro-003",
+        "E-shot-price-promo-004"
+      ]
+    },
+    {
+      "id": "pattern-service-proof",
+      "name": "Service / technical proof",
+      "shell_regions": [
+        "real workshop image",
+        "red wash or lower block",
+        "large service title",
+        "small brand promise",
+        "logo"
+      ],
+      "hierarchy": [
+        "service name",
+        "proof scene",
+        "support promise"
+      ],
+      "density": "photo-led with strong headline",
+      "composition_rules": [
+        "use genuine people, equipment or store context",
+        "use diagonal white rule to separate photo and editorial panel",
+        "keep technical tone confident, not ornamental"
+      ],
+      "responsive_transformation": "Protect faces, tools and product details; move headline to the least busy region.",
+      "basis": "observed",
+      "confidence": "high",
+      "evidence_ids": [
+        "E-shot-technical-service-005",
+        "E-shot-helmet-service-006"
+      ]
+    },
+    {
+      "id": "pattern-education",
+      "name": "Educational tip / upgrade",
+      "shell_regions": [
+        "large numeral or hook",
+        "red/duotone image or textured field",
+        "stacked explanatory headline",
+        "outlined CTA",
+        "logo"
+      ],
+      "hierarchy": [
+        "hook",
+        "list/topic",
+        "next action"
+      ],
+      "density": "editorial, scannable, list-like",
+      "composition_rules": [
+        "one strong numeral or short hook",
+        "supporting copy must remain secondary",
+        "use the mascot only when it increases approachability"
+      ],
+      "responsive_transformation": "Stack content; preserve numeral/hook at a readable scale.",
+      "basis": "observed",
+      "confidence": "medium",
+      "evidence_ids": [
+        "E-shot-upgrades-008",
+        "E-shot-safety-tip-009"
+      ]
+    },
+    {
+      "id": "pattern-mascot-action",
+      "name": "Mascot action hero",
+      "shell_regions": [
+        "large Motoko figure",
+        "red speed/circular field",
+        "motorcycle context where relevant",
+        "small brand mark"
+      ],
+      "hierarchy": [
+        "gesture/mascot",
+        "brand energy",
+        "context"
+      ],
+      "density": "image-led, minimal copy",
+      "composition_rules": [
+        "use a single dominant gesture",
+        "maintain eye/headband/mask continuity",
+        "red scarf tails provide motion even in a static frame"
+      ],
+      "responsive_transformation": "Crop around eyes/headband for small avatars; keep hands and gesture for feed hero.",
+      "basis": "observed",
+      "confidence": "high",
+      "evidence_ids": [
+        "E-shot-mascot-pointing-002",
+        "E-shot-scooter-mascot-010"
+      ]
+    }
+  ],
+  "accessibility": {
+    "observed": [
+      "Most headline treatments use strong white/red versus dark/red fields.",
+      "Critical information often appears as large visible type."
+    ],
+    "computed": [],
+    "inferred": [
+      "Photo scrims are being used to preserve text legibility.",
+      "Some red-on-light-red combinations may need production contrast testing."
+    ],
+    "recommended": [
+      "Keep essential message in caption/HTML, not only inside artwork or video frames.",
+      "Use alt text/transcript for meaningful photography and video.",
+      "Provide visible focus and non-color state differences in web implementations.",
+      "Make QR-based actions available through a plain text URL or button.",
+      "Honor prefers-reduced-motion; disable pulsing, wipes and parallax when requested.",
+      "Do not treat decorative percentage orbs as meaningful content."
+    ],
+    "gaps": [
+      "No DOM semantics, alt text, keyboard traversal, focus, contrast ratio or screen-reader evidence.",
+      "No video captions/transcript or audio policy supplied."
+    ],
+    "basis": "inferred",
+    "confidence": "low",
+    "evidence_ids": [
+      "E-shot-price-promo-004",
+      "E-shot-review-007",
+      "E-shot-upgrades-008"
+    ]
+  },
+  "content_style": {
+    "language": "pt-BR",
+    "voice": [
+      "direct",
+      "technical but approachable",
+      "energetic",
+      "trust-building",
+      "local/service-oriented"
+    ],
+    "message_jobs": [
+      "show value/economy",
+      "signal technical competence",
+      "reduce purchase uncertainty with guidance",
+      "invite contact/review",
+      "promote safe riding"
+    ],
+    "headline_rules": [
+      "short hook in uppercase",
+      "verb or benefit first",
+      "one idea per creative",
+      "use punctuation sparingly for impact"
+    ],
+    "cta_rules": [
+      "imperative and brief",
+      "make the next step explicit",
+      "support with WhatsApp, location or review path"
+    ],
+    "recurring_vocabulary": [
+      "agilidade",
+      "precisão",
+      "qualidade",
+      "economia",
+      "segurança",
+      "atendimento técnico",
+      "peças",
+      "acessórios",
+      "oficina",
+      "moto"
+    ],
+    "basis": "inferred",
+    "confidence": "medium",
+    "evidence_ids": [
+      "E-shot-profile-001",
+      "E-shot-price-promo-004",
+      "E-shot-technical-service-005",
+      "E-shot-upgrades-008",
+      "E-shot-safety-tip-009"
+    ],
+    "notes": "Exact copy examples are intentionally not duplicated in the report specimen; use approved brand copy in production."
+  },
+  "exceptions": [
+    {
+      "id": "exception-flat-mascot-variant",
+      "label": "Secondary flat mascot style",
+      "description": "One educational post shows a flatter, more illustrated version of Motoko with different rendering language.",
+      "resolution": "Treat 3D CGI Motoko as canonical for identity; use flat illustration only as an explicitly approved secondary style.",
+      "basis": "observed",
+      "confidence": "high",
+      "evidence_ids": [
+        "E-shot-safety-tip-009",
+        "E-shot-mascot-pointing-002"
+      ]
+    },
+    {
+      "id": "exception-platform-chrome",
+      "label": "Instagram chrome",
+      "description": "Dark UI, blue promotion button, purple remix icons and navigation controls appear in screenshots but are not brand tokens.",
+      "resolution": "Exclude platform colors and controls from the Motokão identity system.",
+      "basis": "observed",
+      "confidence": "high",
+      "evidence_ids": [
+        "E-shot-profile-001",
+        "E-shot-mega-giro-003"
+      ]
+    },
+    {
+      "id": "exception-logo-master",
+      "label": "Logo master unavailable",
+      "description": "The speed/vehicle silhouette and MOTOKÃO wordmark are visible but no vector master was supplied.",
+      "resolution": "Reference the visible lockup only; use the original vector asset for final artwork.",
+      "basis": "observed",
+      "confidence": "high",
+      "evidence_ids": [
+        "E-shot-mega-giro-003",
+        "E-shot-review-007",
+        "E-shot-upgrades-008"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "id": "gap-video-source",
+      "label": "Original video/recording not supplied",
+      "impact": "Motion, duration, easing, audio, captions, autoplay and fallback behavior cannot be extracted.",
+      "basis": "observed",
+      "confidence": "high",
+      "evidence_ids": []
+    },
+    {
+      "id": "gap-responsive-coverage",
+      "label": "Only one mobile screenshot size",
+      "impact": "Desktop/tablet breakpoints and reflow rules remain unknown.",
+      "basis": "computed",
+      "confidence": "high",
+      "evidence_ids": [
+        "E-shot-profile-001"
+      ]
+    },
+    {
+      "id": "gap-design-assets",
+      "label": "No source files for logo, fonts, color values or editable artwork",
+      "impact": "Colors, fonts and logo geometry are candidates/estimates rather than exact production tokens.",
+      "basis": "observed",
+      "confidence": "high",
+      "evidence_ids": [
+        "E-shot-mega-giro-003",
+        "E-shot-profile-001"
+      ]
+    },
+    {
+      "id": "gap-interaction",
+      "label": "No safe interactive inspection",
+      "impact": "Hover, focus, pressed, story navigation, swipe and scroll behavior are unknown.",
+      "basis": "observed",
+      "confidence": "high",
+      "evidence_ids": []
+    },
+    {
+      "id": "gap-contrast",
+      "label": "No calibrated color sampling",
+      "impact": "WCAG ratios and exact brand color values need verification against source assets.",
+      "basis": "observed",
+      "confidence": "medium",
+      "evidence_ids": [
+        "E-shot-price-promo-004",
+        "E-shot-review-007"
+      ]
+    }
+  ],
+  "additional_findings": [
+    {
+      "id": "finding-red-black-white-grammar",
+      "label": "Three-color grammar",
+      "description": "Red creates urgency, black grounds technical seriousness, and white provides legibility and racing-style contrast.",
+      "basis": "inferred",
+      "confidence": "high",
+      "evidence_ids": [
+        "E-shot-mascot-pointing-002",
+        "E-shot-mega-giro-003",
+        "E-shot-technical-service-005",
+        "E-shot-review-007"
+      ]
+    },
+    {
+      "id": "finding-diagonal-speed",
+      "label": "Diagonal movement language",
+      "description": "White rules, slanted type and scarf tails create a consistent sense of speed without requiring a literal moving vehicle.",
+      "basis": "inferred",
+      "confidence": "high",
+      "evidence_ids": [
+        "E-shot-mascot-pointing-002",
+        "E-shot-price-promo-004",
+        "E-shot-technical-service-005",
+        "E-shot-upgrades-008"
+      ]
+    },
+    {
+      "id": "finding-canonical-mascot-sheet",
+      "label": "Canonical 3D continuity asset",
+      "description": "The generated sheet fixes Motoko identity across front, three-quarter, profile, back, action and expression views.",
+      "basis": "recommended",
+      "confidence": "medium",
+      "evidence_ids": [
+        "E-shot-mascot-pointing-002",
+        "E-shot-scooter-mascot-010"
+      ],
+      "asset": "assets/motoko-character-sheet.png"
+    },
+    {
+      "id": "finding-production-separation",
+      "label": "Separate generation from final layout",
+      "description": "Use image generation for character/scene exploration, then apply approved logo vectors and exact Portuguese typography in layout software.",
+      "basis": "recommended",
+      "confidence": "high",
+      "evidence_ids": []
+    }
+  ],
+  "experience": {
+    "surface_mode": "experience",
+    "identity_lock": {
+      "summary": "A fast, tactile motorcycle-workshop identity where red energy and black technical confidence are humanized by a friendly ninja mascot.",
+      "thesis": "Motokão communicates precision through a ninja metaphor, urgency through racing red, and trust through real workshop proof.",
+      "sensory_words": [
+        "rápido",
+        "técnico",
+        "robusto",
+        "urbano",
+        "preciso",
+        "energético",
+        "amigável"
+      ],
+      "anti_generic": [
+        "Do not flatten the identity into a generic red automotive gradient.",
+        "Do not mix the canonical 3D Motoko with arbitrary ninja costumes.",
+        "Do not replace real workshop proof with stock-tech imagery when proof matters.",
+        "Do not let decorative texture overpower the headline or safety information."
+      ],
+      "basis": "inferred",
+      "confidence": "medium",
+      "evidence_ids": [
+        "E-shot-profile-001",
+        "E-shot-mascot-pointing-002",
+        "E-shot-technical-service-005",
+        "E-shot-review-007"
+      ]
+    },
+    "focal_moment": {
+      "name": "Mascot gesture or oversized headline",
+      "description": "A pointed hand, raised fist, large numeral or short headline establishes the message before supporting details.",
+      "basis": "inferred",
+      "confidence": "high",
+      "evidence_ids": [
+        "E-shot-mascot-pointing-002",
+        "E-shot-mega-giro-003",
+        "E-shot-upgrades-008"
+      ]
+    },
+    "signature_elements": [
+      {
+        "id": "signature-motoko-scarf",
+        "name": "Red scarf tails",
+        "material": "soft fabric with controlled 3D/illustrated motion",
+        "anatomy": "two red ribbons from the headband",
+        "role": "dynamic silhouette and mascot recognition",
+        "layer_relationship": "behind head/shoulders; may cross red circular motif",
+        "protection_rules": [
+          "keep two tails",
+          "keep red color",
+          "do not turn them into a cape or weapon"
+        ],
+        "basis": "observed",
+        "confidence": "high",
+        "evidence_ids": [
+          "E-shot-mascot-pointing-002",
+          "E-shot-scooter-mascot-010"
+        ]
+      },
+      {
+        "id": "signature-red-diagonal",
+        "name": "White diagonal separator",
+        "material": "flat graphic rule",
+        "anatomy": "thin or broad white diagonal band",
+        "role": "separate photo proof from editorial copy",
+        "layer_relationship": "between image and headline block",
+        "protection_rules": [
+          "keep angle decisive",
+          "maintain enough contrast",
+          "do not use as random decoration in every layout"
+        ],
+        "basis": "observed",
+        "confidence": "high",
+        "evidence_ids": [
+          "E-shot-price-promo-004",
+          "E-shot-technical-service-005"
+        ]
+      },
+      {
+        "id": "signature-neon-highlight-rings",
+        "name": "Neon category rings",
+        "material": "dark/metallic rings with luminous amber line art",
+        "anatomy": "concentric circular cover",
+        "role": "persistent navigation for story categories",
+        "layer_relationship": "icon centered within layered ring",
+        "protection_rules": [
+          "preserve circular geometry",
+          "keep icons simple at thumbnail scale",
+          "avoid adding gradients that reduce line clarity"
+        ],
+        "basis": "observed",
+        "confidence": "high",
+        "evidence_ids": [
+          "E-shot-profile-001"
+        ]
+      }
+    ],
+    "named_rules": [
+      {
+        "id": "rule-one-focal-gesture",
+        "name": "Uma ação focal",
+        "description": "Let one gesture, numeral, headline or CTA own the first read.",
+        "basis": "inferred",
+        "confidence": "medium",
+        "evidence_ids": [
+          "E-shot-mascot-pointing-002",
+          "E-shot-upgrades-008"
+        ]
+      },
+      {
+        "id": "rule-red-signals-value",
+        "name": "Vermelho sinaliza valor",
+        "description": "Use red for urgency, energy, promotions and brand recognition; reserve white/black for hierarchy.",
+        "basis": "inferred",
+        "confidence": "high",
+        "evidence_ids": [
+          "E-shot-mega-giro-003",
+          "E-shot-price-promo-004"
+        ]
+      },
+      {
+        "id": "rule-proof-stays-real",
+        "name": "A prova permanece real",
+        "description": "When the message is technical or institutional, keep the workshop, people, products or store visible under the graphic treatment.",
+        "basis": "inferred",
+        "confidence": "high",
+        "evidence_ids": [
+          "E-shot-technical-service-005",
+          "E-shot-helmet-service-006",
+          "E-shot-review-007"
+        ]
+      }
+    ],
+    "dos": [
+      "Use red, black and white as the first visual read.",
+      "Keep the 3D Motoko costume invariant.",
+      "Use large, short, slanted headlines.",
+      "Protect faces, products and critical technical details.",
+      "Use texture as depth, not as a substitute for hierarchy."
+    ],
+    "donts": [
+      "Do not use Instagram UI colors as brand colors.",
+      "Do not add swords, fantasy armor, helmets or unrelated ninja tropes to Motoko.",
+      "Do not rely on tiny generated text for logos or legal/price details.",
+      "Do not make every post a red wall with no image/content variation.",
+      "Do not claim exact motion or breakpoints without recording/source evidence."
+    ],
+    "recommendations": [
+      {
+        "id": "recommendation-brand-kit",
+        "description": "Create an authoritative asset kit with vector logo, approved font files, calibrated color values, mascot master and content templates.",
+        "basis": "recommended",
+        "confidence": "high",
+        "evidence_ids": []
+      },
+      {
+        "id": "recommendation-motion-kit",
+        "description": "Record or define 3–5 motion primitives: diagonal wipe, mascot reveal, headline rise, neon ring pulse and CTA emphasis, each with reduced-motion fallback.",
+        "basis": "recommended",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ]
+  },
+  "elements": [
+    {
+      "id": "element-mascot",
+      "kind": "character",
+      "role": "identity/focal",
+      "material": "3D stylized CGI",
+      "locator": "assets/motoko-character-sheet.png",
+      "composition": "full body, close-up or action crop",
+      "protection": "headband M, eyes, black mask, red scarf, black/red suit must remain invariant",
+      "basis": "recommended",
+      "confidence": "medium",
+      "evidence_ids": [
+        "E-shot-mascot-pointing-002",
+        "E-shot-scooter-mascot-010"
+      ]
+    },
+    {
+      "id": "element-brush-texture",
+      "kind": "texture",
+      "role": "energy/depth",
+      "material": "paint brush, grain, halftone and urban texture",
+      "locator": "evidence/IMG_4164.jpeg",
+      "composition": "behind or around headline, never over critical letterforms",
+      "protection": "retain legibility and keep texture density controlled",
+      "basis": "observed",
+      "confidence": "medium",
+      "evidence_ids": [
+        "E-shot-price-promo-004",
+        "E-shot-safety-tip-009"
+      ]
+    },
+    {
+      "id": "element-diagonal-rule",
+      "kind": "divider",
+      "role": "separation/pace",
+      "material": "white geometric rule",
+      "locator": "evidence/IMG_4172.jpeg",
+      "composition": "between photographic and editorial zones",
+      "protection": "must not cover faces, product openings or essential text",
+      "basis": "observed",
+      "confidence": "high",
+      "evidence_ids": [
+        "E-shot-price-promo-004",
+        "E-shot-technical-service-005"
+      ]
+    }
+  ],
+  "media": {
+    "policy": {
+      "remote_autoplay": false,
+      "source_media_reuse": "Screenshots are retained as evidence only; do not republish platform chrome or protected imagery without authorization.",
+      "text_in_media": "Essential text should also be available in caption/HTML.",
+      "reduced_motion": "Use static poster/frame when motion is unavailable or reduced."
+    },
+    "assets": [
+      {
+        "id": "media-evidence-screenshots",
+        "label": "Supplied screenshot set",
+        "kind": "image",
+        "role": "content",
+        "url": "evidence/",
+        "poster": null,
+        "playback": null,
+        "composition": {
+          "layer": "evidence-only",
+          "object_fit": "contain",
+          "object_position": "center",
+          "scrim": null,
+          "safe_text_zone": null
+        },
+        "fallback": {
+          "poster": null,
+          "reduced_motion": "not applicable",
+          "low_bandwidth": "omit previews, retain filenames"
+        },
+        "performance": {
+          "max_bytes_target": null,
+          "offscreen": "lazy-load evidence thumbnails in report"
+        },
+        "basis": "observed",
+        "confidence": "high",
+        "evidence_ids": [
+          "E-shot-profile-001",
+          "E-shot-mascot-pointing-002",
+          "E-shot-mega-giro-003",
+          "E-shot-price-promo-004",
+          "E-shot-technical-service-005",
+          "E-shot-helmet-service-006",
+          "E-shot-review-007",
+          "E-shot-upgrades-008",
+          "E-shot-safety-tip-009",
+          "E-shot-scooter-mascot-010"
+        ]
+      },
+      {
+        "id": "media-motoko-sheet",
+        "label": "Motoko character continuity sheet",
+        "kind": "image",
+        "role": "illustration",
+        "url": "assets/motoko-character-sheet.png",
+        "poster": "assets/motoko-character-sheet.png",
+        "playback": null,
+        "composition": {
+          "layer": "reference",
+          "object_fit": "contain",
+          "object_position": "center",
+          "scrim": null,
+          "safe_text_zone": "none"
+        },
+        "fallback": {
+          "poster": "assets/motoko-character-sheet.png",
+          "reduced_motion": "static image",
+          "low_bandwidth": "omit preview, retain asset"
+        },
+        "performance": {
+          "max_bytes_target": null,
+          "offscreen": "lazy-load in report"
+        },
+        "basis": "recommended",
+        "confidence": "medium",
+        "evidence_ids": [],
+        "rationale": "The sheet provides a reusable canonical reference for keeping Motoko's costume, face, poses and expressions consistent in future artwork."
+      }
+    ]
+  },
+  "effects": [
+    {
+      "id": "effect-red-duotone",
+      "kind": "duotone-scrim",
+      "target": "workshop/store photography",
+      "driver": "state",
+      "job": "legibility and brand unification",
+      "properties": [
+        "red color wash",
+        "opacity",
+        "contrast"
+      ],
+      "fallback": "neutral dark scrim plus unfiltered photo",
+      "performance": "prefer CSS overlay/blend or precomposed export",
+      "basis": "observed",
+      "confidence": "high",
+      "evidence_ids": [
+        "E-shot-review-007",
+        "E-shot-upgrades-008"
+      ]
+    },
+    {
+      "id": "effect-grain-brush",
+      "kind": "grain/brush texture",
+      "target": "background field",
+      "driver": "load",
+      "job": "tactility and urban energy",
+      "properties": [
+        "noise/grain",
+        "brush edges",
+        "halftone"
+      ],
+      "fallback": "flat red/white field",
+      "performance": "prefer compressed static texture; avoid large repeated filters",
+      "basis": "observed",
+      "confidence": "medium",
+      "evidence_ids": [
+        "E-shot-price-promo-004",
+        "E-shot-safety-tip-009"
+      ]
+    },
+    {
+      "id": "effect-neon-ring-glow",
+      "kind": "glow",
+      "target": "highlight cover icon",
+      "driver": "state",
+      "job": "category recognition",
+      "properties": [
+        "amber stroke",
+        "outer glow",
+        "concentric ring contrast"
+      ],
+      "fallback": "solid amber line without animation",
+      "performance": "keep glow localized and low-cost",
+      "basis": "observed",
+      "confidence": "medium",
+      "evidence_ids": [
+        "E-shot-profile-001"
+      ]
+    },
+    {
+      "id": "effect-kinetic-wipe",
+      "kind": "diagonal reveal",
+      "target": "post/video transition",
+      "driver": "unknown",
+      "job": "recommended hierarchy/continuity",
+      "properties": [
+        "clip/transform",
+        "opacity"
+      ],
+      "fallback": "static final state",
+      "performance": "prefer transform/opacity; honor reduced motion",
+      "basis": "recommended",
+      "confidence": "low",
+      "evidence_ids": [],
+      "rationale": "Visual diagonal language is observed; its animated implementation is not."
+    }
+  ],
+  "generated_assets": {
+    "report": "report.html",
+    "manifest": "design-system.json",
+    "framework": "single-html",
+    "token_export": "tokens.css",
+    "handoff": "handoff.md",
+    "mascot_reference": "assets/motoko-character-sheet.png",
+    "prompt": "prompts/motoko-character-sheet.txt",
+    "evidence_directory": "evidence/",
+    "generator": "built-in image generation with supplied local references",
+    "report_features": [
+      "responsive specimen layout",
+      "basis/confidence legend",
+      "foundation token gallery",
+      "component and composition specimens",
+      "motion lab with replay/pause/slow/reduced controls",
+      "evidence gallery",
+      "gaps and recommendations"
+    ]
+  }
+}
